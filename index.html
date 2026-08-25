@@ -1,32 +1,499 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Siddhant Shinde - Big Data Analytics, AI/ML, and Data Engineering Specialist. Computer Engineering Graduate.">
+    <title>Siddhant Shinde | Big Data & AI Engineer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- CSS Style -->
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <nav>
-        <div class="logo">My Portfolio</div>
+    <!-- Header Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="brand-logo">
+                <span class="logo-badge">SS</span>
+                <span class="brand-name">Siddhant Shinde</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About</a>
+                <a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a>
+                <a href="#projects" class="nav-link"><i class="fa-solid fa-code"></i> Projects</a>
+                <a href="#skills" class="nav-link"><i class="fa-solid fa-layer-group"></i> Skills</a>
+                <a href="#leadership" class="nav-link"><i class="fa-solid fa-users"></i> Leadership</a>
+                <a href="#contact" class="nav-link"><i class="fa-solid fa-envelope"></i> Contact</a>
+            </nav>
 
-        <div class="nav-links">
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
+            <div class="nav-actions">
+                <a href="mailto:siddhantshinde080@gmail.com" class="btn btn-sm btn-primary">Hire Me</a>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
         </div>
-    </nav>
+    </header>
 
-    <h1>Hello, I'm a Developer</h1>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-glow"></div>
+        <div class="container hero-content">
+            <div class="hero-badge">
+                <span class="pulse-dot"></span>
+                <span>Open for Big Data & AI/ML Roles</span>
+            </div>
+            <h1 class="hero-title">
+                Hi, I'm <span class="gradient-text">Siddhant Shinde</span>
+            </h1>
+            <h2 class="hero-subtitle">
+                Big Data Analytics & AI/ML Engineer
+            </h2>
+            <p class="hero-description">
+                Computer Engineering graduate specializing in building scalable Big Data pipelines, Multi-Agent RAG systems, real-time analytics, and cloud-native AI applications.
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fa-solid fa-briefcase"></i> View Featured Projects
+                </a>
+                <a href="mailto:siddhantshinde080@gmail.com" class="btn btn-outline">
+                    <i class="fa-solid fa-paper-plane"></i> Get In Touch
+                </a>
+            </div>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I am a Computer Science graduate interested in
-            building software projects and solving real-world problems.
-        </p>
+            <div class="quick-contact-bar">
+                <a href="mailto:siddhantshinde080@gmail.com" class="quick-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>siddhantshinde080@gmail.com</span>
+                </a>
+                <a href="tel:+919922010495" class="quick-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+91 9922010495</span>
+                </a>
+                <div class="quick-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Ahilyanagar, MH, India</span>
+                </div>
+                <a href="https://www.linkedin.com/in/siddhant-shinde-448420215/" target="_blank" rel="noopener noreferrer" class="quick-item link-item">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/SiddhantMS" target="_blank" rel="noopener noreferrer" class="quick-item link-item">
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
     </section>
 
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Background</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-card glass-card">
+                    <div class="about-icon">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <h3>Engineered Solutions & Big Data</h3>
+                    <p>
+                        Motivated Computer Engineering graduate with a strong foundation in Data, AI, Machine Learning, Database, and Big Data technologies. I focus on solving real-world business problems through innovative, scalable software architectures.
+                    </p>
+                    <p>
+                        Experienced in building end-to-end data pipelines, fine-tuning computer vision models, orchestrating multi-agent AI systems, and turning complex ideas into practical cloud applications.
+                    </p>
+
+                    <div class="stats-row">
+                        <div class="stat-box">
+                            <span class="stat-number">82%</span>
+                            <span class="stat-label">CDAC PG-DBDA Score</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-number">7.72</span>
+                            <span class="stat-label">B.E. CGPA</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Major AI/Data Projects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Academic Journey</span>
+                <h2 class="section-title">Education</h2>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="degree">CDAC Post Graduation - Big Data Analytics (PG-DBDA)</h3>
+                                <span class="institution"><i class="fa-solid fa-building-columns"></i> CDAC-MUMBAI, Maharashtra</span>
+                            </div>
+                            <span class="timeline-badge badge-primary">Percentage: 82%</span>
+                        </div>
+                        <div class="timeline-date"><i class="fa-regular fa-calendar"></i> Feb 2026 – Aug 2026</div>
+                        <p class="timeline-desc">Specialized training in Big Data Engineering, Distributed Computing, PySpark, Kafka, Cloud Architectures, and Advanced Analytics.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="degree">Bachelor of Engineering in Computer Engineering</h3>
+                                <span class="institution"><i class="fa-solid fa-university"></i> Dr. D. Y. Patil Institute of Technology, Pune, Maharashtra</span>
+                            </div>
+                            <span class="timeline-badge">CGPA: 7.72</span>
+                        </div>
+                        <div class="timeline-date"><i class="fa-regular fa-calendar"></i> 2020 – 2024</div>
+                        <p class="timeline-desc">Core Computer Science & Engineering curriculum covering Data Structures, Algorithms, DBMS, Operating Systems, Machine Learning, and Software Engineering.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="degree">Higher Secondary Certificate (12th Science)</h3>
+                                <span class="institution"><i class="fa-solid fa-school"></i> Pemraj Sarda College, Ahmednagar, Maharashtra</span>
+                            </div>
+                        </div>
+                        <div class="timeline-date"><i class="fa-regular fa-calendar"></i> 2018 – 2020</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="degree">Secondary School Certificate (10th Board)</h3>
+                                <span class="institution"><i class="fa-solid fa-school"></i> Abasaheb Kakade Vidyalaya, Shevgaon, Maharashtra</span>
+                            </div>
+                        </div>
+                        <div class="timeline-date"><i class="fa-regular fa-calendar"></i> 2017 – 2018</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Featured Work</span>
+                <h2 class="section-title">Key Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <div class="project-type-badge"><i class="fa-solid fa-robot"></i> Generative AI & Multi-Agent</div>
+                        <span class="project-duration"><i class="fa-regular fa-clock"></i> 2 Months</span>
+                    </div>
+                    <h3 class="project-title">AI Compliance Copilot – Multi-Agent RAG System</h3>
+                    <p class="project-summary">
+                        Cloud-native AI compliance platform automating ingestion, OCR processing, semantic retrieval, and regulatory circular analysis (RBI & SEBI) via Multi-Agent RAG.
+                    </p>
+                    
+                    <ul class="project-highlights">
+                        <li>Extracted structured data from complex PDFs using PaddleOCR & PyMuPDF.</li>
+                        <li>Generated semantic embeddings with bge-m3 and managed intelligent retrieval via Vector DB & LangGraph.</li>
+                        <li>Automated compliance gap detection against internal policies and provided AI-driven recommendations.</li>
+                        <li>Deployed enterprise REST APIs on AWS (EC2, RDS, S3) with Apache Airflow orchestration.</li>
+                    </ul>
+
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>LangGraph</span>
+                        <span>Vector DB</span>
+                        <span>Llama 3.3</span>
+                        <span>AWS</span>
+                        <span>FastAPI</span>
+                        <span>Airflow</span>
+                        <span>PaddleOCR</span>
+                    </div>
+
+                    <div class="project-footer">
+                        <a href="https://github.com/SiddhantMS/AI-Compliance-Copilot.git" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <i class="fa-brands fa-github"></i> GitHub Repository
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <div class="project-type-badge"><i class="fa-solid fa-database"></i> Big Data Engineering</div>
+                        <span class="project-duration"><i class="fa-regular fa-clock"></i> 2 Months</span>
+                    </div>
+                    <h3 class="project-title">India Global Trade Analyzer</h3>
+                    <p class="project-summary">
+                        Real-time Big Data engineering pipeline fetching India's trade statistics from World Bank WITS API, processing with Spark Medallion architecture, and visualizing on Power BI.
+                    </p>
+                    
+                    <ul class="project-highlights">
+                        <li>Real-time streaming pipeline using Apache Kafka deployed on AWS EC2.</li>
+                        <li>Orchestrated ingestion and execution workflows using Apache Airflow.</li>
+                        <li>Processed batch & streaming datasets in Databricks with PySpark Medallion Architecture (Bronze, Silver, Gold).</li>
+                        <li>Stored refined data in Delta Lake and created interactive analytical Power BI dashboards.</li>
+                    </ul>
+
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>Apache Kafka</span>
+                        <span>Apache Airflow</span>
+                        <span>AWS</span>
+                        <span>Databricks</span>
+                        <span>PySpark</span>
+                        <span>Delta Lake</span>
+                        <span>Power BI</span>
+                    </div>
+
+                    <div class="project-footer">
+                        <a href="https://github.com/SiddhantMS/India-Global-Trade-Analyzer" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <i class="fa-brands fa-github"></i> GitHub Repository
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <div class="project-type-badge"><i class="fa-solid fa-eye"></i> Computer Vision & AI</div>
+                        <span class="project-duration"><i class="fa-regular fa-clock"></i> 1 Month</span>
+                    </div>
+                    <h3 class="project-title">FaceInsight AI – Real-Time Facial Analysis</h3>
+                    <p class="project-summary">
+                        End-to-end computer vision and AI system capable of multi-face detection in real time, predicting age, gender, and emotional state.
+                    </p>
+                    
+                    <ul class="project-highlights">
+                        <li>Fine-tuned custom YOLO11 (Ultralytics) model on the WIDER FACE dataset.</li>
+                        <li>Implemented complete preprocessing, annotation conversion, and inference workflow.</li>
+                        <li>Integrated DeepFace & OpenCV for accurate demographic and emotion analysis.</li>
+                        <li>Built Flask web backend and deployed production-ready application on AWS.</li>
+                    </ul>
+
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>PyTorch</span>
+                        <span>YOLO11</span>
+                        <span>DeepFace</span>
+                        <span>OpenCV</span>
+                        <span>Flask</span>
+                        <span>AWS</span>
+                    </div>
+
+                    <div class="project-footer">
+                        <a href="https://github.com/SiddhantMS/FaceInsight-AI" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <i class="fa-brands fa-github"></i> GitHub Repository
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Technical Expertise</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Skill Category 1 -->
+                <div class="skill-category glass-card">
+                    <div class="category-header">
+                        <i class="fa-solid fa-brain category-icon"></i>
+                        <h3>AI / ML & GenAI</h3>
+                    </div>
+                    <div class="skill-badges">
+                        <span class="badge"><i class="fa-solid fa-diagram-project"></i> Multi-Agent RAG</span>
+                        <span class="badge"><i class="fa-solid fa-network-wired"></i> LangGraph</span>
+                        <span class="badge"><i class="fa-solid fa-microchip"></i> Llama 3.1 / 3.3</span>
+                        <span class="badge"><i class="fa-solid fa-bolt"></i> PyTorch</span>
+                        <span class="badge"><i class="fa-solid fa-eye"></i> YOLO11 (Ultralytics)</span>
+                        <span class="badge"><i class="fa-solid fa-face-smile"></i> DeepFace</span>
+                        <span class="badge"><i class="fa-solid fa-font"></i> spaCy</span>
+                        <span class="badge"><i class="fa-solid fa-database"></i> Vector Databases</span>
+                        <span class="badge"><i class="fa-solid fa-file-pdf"></i> PaddleOCR</span>
+                    </div>
+                </div>
+
+                <!-- Skill Category 2 -->
+                <div class="skill-category glass-card">
+                    <div class="category-header">
+                        <i class="fa-solid fa-database category-icon"></i>
+                        <h3>Big Data & Engineering</h3>
+                    </div>
+                    <div class="skill-badges">
+                        <span class="badge"><i class="fa-solid fa-stream"></i> Apache Kafka</span>
+                        <span class="badge"><i class="fa-solid fa-wind"></i> Apache Airflow</span>
+                        <span class="badge"><i class="fa-solid fa-fire"></i> Databricks</span>
+                        <span class="badge"><i class="fa-solid fa-bolt"></i> PySpark</span>
+                        <span class="badge"><i class="fa-solid fa-layer-group"></i> Delta Lake</span>
+                        <span class="badge"><i class="fa-solid fa-cubes"></i> Medallion Architecture</span>
+                        <span class="badge"><i class="fa-solid fa-chart-column"></i> Power BI</span>
+                    </div>
+                </div>
+
+                <!-- Skill Category 3 -->
+                <div class="skill-category glass-card">
+                    <div class="category-header">
+                        <i class="fa-solid fa-cloud category-icon"></i>
+                        <h3>Cloud & Backend</h3>
+                    </div>
+                    <div class="skill-badges">
+                        <span class="badge"><i class="fa-brands fa-aws"></i> AWS (EC2, S3, RDS)</span>
+                        <span class="badge"><i class="fa-solid fa-server"></i> FastAPI</span>
+                        <span class="badge"><i class="fa-solid fa-flask"></i> Flask</span>
+                        <span class="badge"><i class="fa-brands fa-git-alt"></i> Git</span>
+                        <span class="badge"><i class="fa-brands fa-ubuntu"></i> Ubuntu / Linux</span>
+                        <span class="badge"><i class="fa-solid fa-terminal"></i> REST APIs</span>
+                    </div>
+                </div>
+
+                <!-- Skill Category 4 -->
+                <div class="skill-category glass-card">
+                    <div class="category-header">
+                        <i class="fa-solid fa-code category-icon"></i>
+                        <h3>Languages & Databases</h3>
+                    </div>
+                    <div class="skill-badges">
+                        <span class="badge"><i class="fa-brands fa-python"></i> Python</span>
+                        <span class="badge"><i class="fa-solid fa-database"></i> SQL</span>
+                        <span class="badge"><i class="fa-solid fa-c"></i> C++</span>
+                        <span class="badge"><i class="fa-solid fa-table"></i> Relational DBs (RDS / Postgres)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section class="section leadership-section" id="leadership">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Management & Impact</span>
+                <h2 class="section-title">Positions of Responsibility</h2>
+            </div>
+
+            <div class="leadership-grid">
+                <div class="leadership-card glass-card">
+                    <div class="role-badge"><i class="fa-solid fa-crown"></i> Tech Leadership</div>
+                    <h3>Technical Lead</h3>
+                    <div class="role-org"><i class="fa-solid fa-building-columns"></i> CDAC</div>
+                    <p>Led technical project activities, coordinated team discussions, and guided members in completing project tasks and technical challenges efficiently.</p>
+                </div>
+
+                <div class="leadership-card glass-card">
+                    <div class="role-badge"><i class="fa-solid fa-users"></i> Event Coordination</div>
+                    <h3>Coordinator</h3>
+                    <div class="role-org"><i class="fa-solid fa-lightbulb"></i> EDSI Club</div>
+                    <p>Coordinated team activities, group discussions, and entrepreneurship events while supporting event planning, execution, and outreach promotion.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="contact-card glass-card">
+                <div class="contact-header">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2>Let's Build Something Impactful</h2>
+                    <p>I am actively seeking full-time opportunities in Big Data, AI/ML, Data Engineering, and Cloud Software roles.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <a href="mailto:siddhantshinde080@gmail.com" class="contact-method">
+                        <div class="method-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="method-info">
+                            <span class="method-title">Email Me</span>
+                            <span class="method-value">siddhantshinde080@gmail.com</span>
+                        </div>
+                    </a>
+
+                    <a href="tel:+919922010495" class="contact-method">
+                        <div class="method-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="method-info">
+                            <span class="method-title">Call Me</span>
+                            <span class="method-value">+91 9922010495</span>
+                        </div>
+                    </a>
+
+                    <div class="contact-method">
+                        <div class="method-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="method-info">
+                            <span class="method-title">Location</span>
+                            <span class="method-value">Ahilyanagar, Maharashtra, India</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-actions">
+                    <button class="btn btn-primary" id="copy-email-btn">
+                        <i class="fa-solid fa-copy"></i> Copy Email Address
+                    </button>
+                    <a href="mailto:siddhantshinde080@gmail.com" class="btn btn-outline">
+                        <i class="fa-solid fa-paper-plane"></i> Send Direct Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Siddhant Shinde. Built with clean static HTML/CSS for GitHub Pages.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/SiddhantMS" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/siddhant-shinde-448420215/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:siddhantshinde080@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification for Email Copy -->
+    <div id="toast" class="toast">
+        <i class="fa-solid fa-circle-check"></i>
+        <span>Email copied to clipboard!</span>
+    </div>
+
+    <!-- JS Script -->
+    <script src="script.js"></script>
 </body>
 </html>
